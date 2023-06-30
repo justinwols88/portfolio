@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light|Oswald|Permanent+Marker|Montserrat');
 body {
     margin: 0;
-    background-color: #eee;
+    background-color: hsl(0, 0%, 0%);
 }
 
 html,
@@ -10,16 +10,16 @@ h2,
 p {
     font-family: 'Shadows Into Light', cursive;
     color: DarkRed;
-    font-size: 24px;
+    font-size: 12px;
 }
 
 main>div>article>section>header>h2 {
     color: #668284;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 main>div>article>section>p {
-    font-size: 16px;
+    font-size: 12px;
 }
 
 main>div>article>section>header>h2,
@@ -27,7 +27,7 @@ main>div>article>section p,
 footer>div>nav>p {
     text-align: center;
     margin: 0;
-    padding: 10px;
+    padding: 5px;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -41,19 +41,19 @@ main>div>article>section {
     border-bottom: 3px solid #668284;
 }
 
-main>div>article>section:last-child {
-    border-bottom: none;
+.fit-picture {
+    width: 150px;
 }
 
 header>div>h1 {
     text-align: center;
-    font-size: 70px;
+    font-size: 50px;
     margin: 0;
     font-family: 'Permanent Marker', cursive;
 }
 
 header>div>nav {
-    margin: 0 0 10px 10px;
+    margin: 0px;
 }
 
 header>div>nav>a {
@@ -87,15 +87,19 @@ main>div>article>section p {
 main>div {
     overflow: hidden;
     border: 3px solid #668284;
-    padding: 10px;
-    background-color: #B9D7D9;
+    padding: 12px;
+    background-color: hsl(0, 0%, 0%);
 }
 
 footer>div>nav>p {
     color: #668284;
-    font-size: 16px;
+    font-size: 12px;
 }
 
 main>div>article>section>footer>p {
-    font-size: 16px;
+    font-size: 12 px;
+}
+
+hr {
+    text-align: center
 }
