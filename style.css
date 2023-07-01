@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light|Oswald|Permanent+Marker|Montserrat');
+@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light|Oswald|Permanent+Marker|Montserrat");
 body {
     margin: 0;
     background-color: hsl(0, 0%, 0%);
@@ -8,13 +8,13 @@ html,
 h1,
 h2,
 p {
-    font-family: 'Shadows Into Light', cursive;
+    font-family: "Shadows Into Light", cursive;
     color: DarkRed;
     font-size: 12px;
 }
 
 main>div>article>section>header>h2 {
-    color: #668284;
+    color: #5aeb3a;
     font-size: 18px;
 }
 
@@ -28,7 +28,7 @@ footer>div>nav>p {
     text-align: center;
     margin: 0;
     padding: 5px;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
 }
 
 main>div>article {
@@ -38,7 +38,7 @@ main>div>article {
 main>div>article>section {
     margin-left: -200%;
     width: 500%;
-    border-bottom: 3px solid #668284;
+    border-bottom: 3px solid hwb(57 9% 14%);
 }
 
 .fit-picture {
@@ -49,7 +49,7 @@ header>div>h1 {
     text-align: center;
     font-size: 50px;
     margin: 0;
-    font-family: 'Permanent Marker', cursive;
+    font-family: "Permanent Marker", cursive;
 }
 
 header>div>nav {
@@ -60,12 +60,12 @@ header>div>nav>a {
     padding: 0 15px 10px 20px;
     font-size: 16px;
     text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    color: #493736;
+    font-family: "Montserrat", sans-serif;
+    color: hsl(83, 61%, 51%);
 }
 
 header>div>nav a:hover {
-    color: #668284;
+    color: hsl(69, 67%, 53%);
 }
 
 nav,
@@ -81,14 +81,14 @@ nav:after {
 }
 
 main>div>article>section p {
-    color: #493736;
+    color: hsl(69, 81%, 55%);
 }
 
 main>div {
     overflow: hidden;
-    border: 3px solid #668284;
+    border: 3px solid hsla(338, 39%, 89%, 0.64);
     padding: 12px;
-    background-color: hsl(0, 0%, 0%);
+    background-color: hsl(0, 87%, 3%);
 }
 
 footer>div>nav>p {
@@ -101,5 +101,5 @@ main>div>article>section>footer>p {
 }
 
 hr {
-    text-align: center
+    text-align: center;
 }
