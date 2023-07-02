@@ -104,7 +104,12 @@
  main>div>section>footer>p {
      font-size: 12px;
  }
- 
+
+ ul{
+     color: hsl(69, 81%, 55%);
+     word-spacing: 0%;
+ }
+
  hr {
      text-align: center;
  }
